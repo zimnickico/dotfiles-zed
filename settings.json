@@ -1,0 +1,83 @@
+// Last updated: 2024-12-05
+
+{
+  "features": {
+    "inline_completion_provider": "none"
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "usage": false
+  },
+
+  "vim_mode": true,
+  "relative_line_numbers": true,
+  "vim": {
+    "use_system_clipboard": "on_yank",
+    "use_smartcase_find": true
+  },
+
+  "git": {
+    "git_gutter": "tracked_files"
+  },
+
+  "gutter": {
+    "code_actions": false,
+    "folds": true,
+    "runnables": false
+  },
+
+  "scroll_beyond_last_line": "off",
+
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": false,
+    "selections_menu": false
+  },
+
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": false
+  },
+
+  "terminal": { "button": false },
+  "chat_panel": { "button": false },
+  "collaboration_panel": { "button": false },
+  "outline_panel": { "button": false },
+  "notification_panel": { "button": false },
+  "assistant": { "version": "1", "button": false },
+
+  "diagnostics": {
+    "include_warnings": true
+  },
+
+  "completion_documentation_secondary_query_debounce": 100,
+
+  "preview_tabs": {
+    "enable_preview_from_file_finder": true
+  },
+
+  "top_bar": {
+    "show": false
+  },
+
+  "scrollbar": {
+    "show": "never"
+  },
+
+  "show_whitespaces": "none",
+
+  "indent_guides": {
+    "enabled": false
+  },
+
+  "ui_font_size": 16,
+  "ui_font_family": "Zed Sans",
+  "buffer_font_size": 16,
+  "buffer_font_family": "Zed Mono",
+
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Zed Dark Mono"
+  }
+}
